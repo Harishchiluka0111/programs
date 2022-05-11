@@ -1,0 +1,10 @@
+dll : Menu2.o AddBeg.o Display.o Reverse.o
+	cc Menu2.o AddBeg.o Display.o Reverse.o -o dll
+Menu2.o: Menu2.c
+	cc -c Menu2.c
+AddBeg.o : AddBeg.c
+	cc -c AddBeg.c
+Display.o : Display.c
+	cc -c Display.c
+Reverse.o : Reverse.c
+	cc -c Reverse.c

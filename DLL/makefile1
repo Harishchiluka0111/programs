@@ -1,0 +1,14 @@
+a.out : Menu1.o AddLast.o Display.o Del_last.o Del_data.o DelFirst.o
+	cc Menu1.o AddLast.o Display.o Del_last.o Del_data.o DelFirst.o
+Menu1.o : Menu1.c
+	cc -c Menu1.c
+AddLast.o : AddLast.c
+	cc -c AddLast.c
+Display.o : Display.c
+	cc -c Display.c
+Del_last.o : Del_last.c
+	cc -c Del_last.c
+Del_data.o : Del_data.c
+	cc -c Del_data.c
+DelFirst.o : DelFirst.c
+	cc -c DelFirst.c
